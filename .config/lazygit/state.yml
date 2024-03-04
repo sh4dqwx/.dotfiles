@@ -1,8 +1,11 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/bartek/Projects/personal-website
+- /home/bartek/Projects/2023pz-grarepo
+- /home/bartek/Projects/hybrydy
+- /home/bartek/Projects/java-learning
 - /home/bartek/.dotfiles
 - /home/bartek/Projects/stomp-tester
-- /home/bartek/Projects/2023pz-grarepo
 startuppopupversion: 5
 customcommandshistory:
 - q

@@ -1,0 +1,6 @@
+2024/03/04-16:29:57.655 211b Reusing MANIFEST /home/bartek/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/03/04-16:29:57.656 211b Recovering log #21
+2024/03/04-16:29:57.673 211b Level-0 table #23: started
+2024/03/04-16:29:57.693 211b Level-0 table #23: 727871 bytes OK
+2024/03/04-16:29:57.703 211b Delete type=0 #21
+2024/03/04-16:30:25.236 2142 Level-0 table #26: started

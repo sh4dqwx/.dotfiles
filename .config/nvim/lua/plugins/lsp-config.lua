@@ -5,6 +5,7 @@ local servers = {
   "clangd",                -- C++
   "html",                  -- HTML
   "cssls",                 -- CSS
+  "tailwindcss",           -- Tailwind
   "gradle_ls",             -- Gradle, Groovy
   "kotlin_language_server", -- Kotlin
   "lemminx",               -- XML
@@ -26,6 +27,17 @@ return {
       require("mason-lspconfig").setup({
         ensure_installed = servers,
       })
+    end,
+  },
+  {
+    "akinsho/flutter-tools.nvim",
+    lazy = false,
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "stevearc/dressing.nvim",
+    },
+    config = function()
+      require("flutter-tools").setup()
     end,
   },
   {
